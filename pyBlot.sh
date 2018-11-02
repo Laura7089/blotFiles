@@ -1,2 +1,2 @@
 cat blot
-python3
+python3 $@
