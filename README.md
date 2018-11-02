@@ -1,9 +1,7 @@
 # Blot Files
-
-To install, copy the files to a folder on your PATH (/usr/bin?) then move either blotDark or blotLight to just blot within the dir
-Add the following to the bottom of your .bashrc:
-
-```
+## Installation
+1. Run `install.sh` as root (if necessary) with the argument -l if you have a light background, or -d if you have a dark one.
+2. Add the following to your .bashrc:```
 alias python=pyBlot
 alias python3=pyBlot
 ```

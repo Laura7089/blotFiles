@@ -1,2 +1,0 @@
-cat blot
-python3 $@
