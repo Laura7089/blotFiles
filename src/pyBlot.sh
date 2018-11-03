@@ -1,2 +1,2 @@
-cat blot/blot
+cat /usr/bin/blot/blot
 python3 $@
