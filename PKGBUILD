@@ -4,7 +4,7 @@
 # then please put 'unknown'.
 
 # Maintainer: Edward Duffy <edward70891@gmail.com>
-pkgname=blotfiles
+pkgname=pyblot
 pkgver=0.1
 pkgrel=1
 pkgdesc="All hail B L O T."
@@ -14,23 +14,11 @@ license=('GPL')
 depends=('python3')
 source=()
 
-prepare() {
-    git clone https://github.com/Edward70891/blotFiles.git
-    cd blotFiles
-}
-
-build() {
-	cd "$pkgname-$pkgver"
-	./configure --prefix=/usr
-	make
-}
-
-check() {
-	cd "$pkgname-$pkgver"
-	make -k check
-}
+BUILDENV+=('!check')
 
 package() {
-	cd "$pkgname-$pkgver"
-	make DESTDIR="$pkgdir/" install
+    mkdir -p $pkgdir/usr/share/
+    mkdir -p $pkgdir/usr/bin
+    cp src/pyblot $pkgdir/bin
+    cp src/blot/blotDark $pkgdir/usr/share
 }
