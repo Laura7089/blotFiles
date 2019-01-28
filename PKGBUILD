@@ -19,7 +19,6 @@ BUILDENV+=('!check')
 package() {
     mkdir -p $pkgdir/usr/share/
     mkdir -p $pkgdir/usr/bin
-    pwd
-    cp pyblot $pkgdir/bin
-    cp blot/blotDark $pkgdir/usr/share
+    cp pyblot $pkgdir/usr/bin
+    cp blot/blotDark $pkgdir/usr/share/blot
 }
