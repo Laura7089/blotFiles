@@ -56,9 +56,8 @@ ____  _       _   _   _
 #### Arch Linux
 1. Build the package. `makepkg` should suffice.
 2. Install the package. `pacman -U [build result]` will do this.
-Alternatively:
-1. Build and install the package: `makepkg -si`.
-
-Run `pyblot` and enjoy!
+Alternatively, build and install the package: `makepkg -si`.
 #### Conventional
 Run `install.sh` as root (if necessary) with the argument -l if you have a light background, or -d if you have a dark one.
+## Usage
+Run `pyblot` and enjoy!
