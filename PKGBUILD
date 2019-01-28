@@ -5,8 +5,8 @@
 
 # Maintainer: Edward Duffy <edward70891@gmail.com>
 pkgname=pyblot
-pkgver=0.1
-pkgrel=1
+pkgver=1.0
+pkgrel=2
 pkgdesc="All hail B L O T."
 arch=('any')
 url="https://github.com/Edward70891/blotFiles"
