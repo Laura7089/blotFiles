@@ -10,7 +10,7 @@ else
       cp src/blot/blotDark src/blot/blot
     fi
     # Copy the wanted files over
-    cp src/pyBlot.sh /usr/bin/
-    cp src/blot /usr/bin/ -r
+    cp src/pyblot /usr/bin/
+    cp src/blot/blot /usr/share/
   fi
 fi
