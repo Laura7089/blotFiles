@@ -60,6 +60,6 @@ Alternatively, build and install the package: `makepkg -si`.
 #### Conventional
 Run `install.sh` as root (if necessary) with the argument -l if you have a light background, or -d if you have a dark one.
 ## Usage
-Run `pyblot` and enjoy!
+Run `pyblot` and bask in His glory.
 ## Features
 Blesses all your python interpreter instances with His image.
