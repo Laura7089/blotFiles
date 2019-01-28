@@ -10,15 +10,16 @@ pkgrel=1
 pkgdesc="All hail B L O T."
 arch=('any')
 url="https://github.com/Edward70891/blotFiles"
-license=('GPL')
+license=('custom:GLWT')
 depends=('python3')
 source=()
 
 BUILDENV+=('!check')
 
 package() {
-    mkdir -p $pkgdir/usr/share/
-    mkdir -p $pkgdir/usr/bin
-    cp pyblot $pkgdir/usr/bin
-    cp blot/blotDark $pkgdir/usr/share/blot
+    mkdir -p "$pkgdir"/usr/share/licenses/pyblot
+    mkdir -p "$pkgdir"/usr/bin
+    cp pyblot "$pkgdir"/usr/bin
+    cp blot/blotDark "$pkgdir"/usr/share/blot
+    cp LICENSE "$pkgdir"/usr/share/licenses/pyblot
 }
