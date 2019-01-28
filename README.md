@@ -62,4 +62,4 @@ Run `install.sh` as root (if necessary) with the argument -l if you have a light
 ## Usage
 Run `pyblot` and enjoy!
 ## Features
-Blesse all your python interpreter instances with His image.
+Blesses all your python interpreter instances with His image.
